@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+#main-container {
+	padding-top: 20px;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+}
+
+#panel-body {
+	float: left;
+	margin-left: 2.5%;
+	width: 77.5%;
+}
+
+i {
+	font-weight: bolder;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#nav-list li {
+	background-color: #009688 !important;
+	color: white;
+}
+
+#nav-list li:HOVER {
+	background-color: #4db6ac !important;
+}
+
+#nav-list .liactive {
+	font-weight: bold;
+	background-color: #80cbc4 !important;
+}
+
+#input_character {
+	margin: 10px;
+}
+
+.container {
+	background-color: #9e9e9e !important;
+}
+
+.childthumb {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(55, 55, 55, 0.5);
+	width: 100%;
+	size: 16px;
+}
+
+.descriptor {
+	display: inline-block;
+	float: left;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 85px;
+    text-align: right;
+}
+
+.autocomplete-active {
+	background-color: #428bca;
+	color: white;
+}
